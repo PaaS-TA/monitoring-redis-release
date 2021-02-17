@@ -1,0 +1,1 @@
+# paas-ta-monitoring-redis-release
