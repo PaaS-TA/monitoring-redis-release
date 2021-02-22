@@ -9,28 +9,16 @@
   - Download & Copy "source files" into the src directory
     ```   
     ## download source files
-    $ wget -O src.zip https://nextcloud.paas-ta.org/index.php/s/FsJCaCN6y4Q4pcB/download
+    $ wget -O src.zip https://nextcloud.paas-ta.org/index.php/s/E2RNq3rXPmGksQp/download
 
     ## unzip download source files
     $ unzip src.zip
 
     ## final src directory
     src
-      ├── bootstrapper
-      │   └── src
-      │       └── bootstrapper
-      ├── chronograf
-      │   └── chronograf-1.4.3.0_linux_amd64.tar.gz
-      ├── golang
-      │   └── go1.9.2.linux-amd64.tar.gz
-      ├── influxdb
-      │   ├── influxdb-1.8.3_linux_amd64.tar.gz
-      │   └── src
-      │       ├── collectd.org
-      │       ├── github.com
-      │       ├── go.uber.org
-      │       └── golang.org
-      └── pidutils.sh
+     ├── pidutils.sh
+     └── redis
+        └── redis-4.0.14.tar.gz
 
     ```
   - Create PaaS-TA Monitoring Redis Release
