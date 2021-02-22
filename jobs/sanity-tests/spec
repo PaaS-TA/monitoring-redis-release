@@ -1,0 +1,13 @@
+---
+name: sanity-tests
+
+templates:
+  bin/run: bin/run
+
+packages: [redis-4]
+
+consumes:
+- name: redis
+  type: redis
+
+properties: {}
