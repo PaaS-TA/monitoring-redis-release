@@ -19,7 +19,7 @@
     <td><a href="https://github.com/PaaS-TA/PaaS-TA-Monitoring-Release">Monitoring</a></td>
     <td><a href="https://github.com/PaaS-TA/paas-ta-monitoring-logsearch-release">Logsearch</a></td>
     <td><a href="https://github.com/PaaS-TA/paas-ta-monitoring-influxdb-release">InfluxDB</a></td>
-    <td>🚩 <a href="https://github.com/PaaS-TA/paas-ta-monitoring-redis-release">Redis</a></td>
+    <td>🚩 <a href="https://github.com/PaaS-TA/monitoring-redis-release">Redis</a></td>
   </tr>
   <tr align=center>
     <td><a href="https://github.com/PaaS-TA/PAAS-TA-PINPOINT-MONITORING-RELEASE">Pinpoint</td>
@@ -63,13 +63,13 @@
 </table>
 <i>🚩 You are here.</i>
 
-# paas-ta-monitoring-redis-release
+# PaaS-TA monitoring-redis-release Guide
 
-### Create PaaS-TA Monitoring Redis Release   
+### Create PaaS-TA monitoring-redis-release   
   - Download the latest PaaS-TA Monitoring Redis Release
     ```   
-    $ git clone https://github.com/PaaS-TA/paas-ta-monitoring-redis-release.git
-    $ cd paas-ta-monitoring-redis-release
+    $ git clone https://github.com/PaaS-TA/monitoring-redis-release.git
+    $ cd monitoring-redis-release
     ```
   - Download & Copy "source files" into the src directory
     ```   
@@ -86,7 +86,7 @@
         └── redis-4.0.14.tar.gz
 
     ```
-  - Create PaaS-TA Monitoring Redis Release
+  - Create PaaS-TA monitoring-redis-release  
     ```   
     ## <VERSION> :: release version (e.g. 15.3.5)
     ## <RELEASE_TARBALL_PATH> :: release file path (e.g. /home/ubuntu/workspace/monitoring-influxdb-release-<VERSION>.tgz)
