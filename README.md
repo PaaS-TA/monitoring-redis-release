@@ -16,7 +16,7 @@
   </tr>
   <tr align=center>
     <td rowspan=2 colspan=2><a href="https://github.com/PaaS-TA/monitoring-deployment">모니터링</a></td>
-    <td><a href="https://github.com/PaaS-TA/monitoring-dashboard-source">Monitoring</a></td>
+    <td><a href="https://github.com/PaaS-TA/monitoring-dashboard-release">Monitoring</a></td>
     <td><a href="https://github.com/PaaS-TA/monitoring-logsearch-release">Logsearch</a></td>
     <td><a href="https://github.com/PaaS-TA/monitoring-influxdb-release">InfluxDB</a></td>
     <td>🚩 <a href="https://github.com/PaaS-TA/monitoring-redis-release">Redis</a></td>
