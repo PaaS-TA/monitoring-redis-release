@@ -88,8 +88,8 @@
     ```
   - Create PaaS-TA monitoring-redis-release  
     ```   
-    ## <VERSION> :: release version (e.g. 15.3.5)
-    ## <RELEASE_TARBALL_PATH> :: release file path (e.g. /home/ubuntu/workspace/monitoring-influxdb-release-<VERSION>.tgz)
+    ## <VERSION> :: release version (e.g. 5.8.0)
+    ## <RELEASE_TARBALL_PATH> :: release file path (e.g. /home/ubuntu/workspace/monitoring-redis-release-<VERSION>.tgz)
     $ bosh -e <bosh_name> create-release --name=redis --sha2 --version=<VERSION> --tarball=<RELEASE_TARBALL_PATH> --force
     ```
 ### Deployment
