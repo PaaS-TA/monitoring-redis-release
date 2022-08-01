@@ -4,7 +4,7 @@ name: sanity-tests
 templates:
   bin/run: bin/run
 
-packages: [redis-4]
+packages: [redis-7]
 
 consumes:
 - name: redis

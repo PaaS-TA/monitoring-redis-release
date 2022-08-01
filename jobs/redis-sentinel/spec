@@ -7,7 +7,7 @@ templates:
   bin/pre_start.sh: bin/pre_start.sh
   bin/wrapper.sh: bin/wrapper.s
 
-packages: [redis-4]
+packages: [redis-7]
 
 consumes:
 - name: redis

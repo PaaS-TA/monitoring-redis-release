@@ -6,4 +6,4 @@ conf_file=$1
 dest_conf=/var/vcap/data/redis-sentinel/config/sentinel.conf
 cp $conf_file $dest_conf
 
-exec /var/vcap/packages/redis-4/bin/redis-server $dest_conf --sentinel 
+exec /var/vcap/packages/redis-7/bin/redis-server $dest_conf --sentinel 

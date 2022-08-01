@@ -83,7 +83,7 @@
     src
      ├── pidutils.sh
      └── redis
-        └── redis-4.0.14.tar.gz
+        └── 7.0.4.tar.gz
 
     ```
   - Create PaaS-TA monitoring-redis-release  
