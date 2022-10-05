@@ -9,9 +9,9 @@ if [ -d ./dev_releases ]; then
   echo "delete dev_releases"
   rm -rf dev_releases
 fi
-if [ -f ./monitoring-redis-release-5.8.0.tgz ]; then
-  echo "delete monitoring-redis-release-5.8.0.tgz"
-  rm -rf monitoring-redis-release-5.8.0.tgz
+if [ -f ./monitoring-redis-release-5.8.1.tgz ]; then
+  echo "delete monitoring-redis-release-5.8.1.tgz"
+  rm -rf monitoring-redis-release-5.8.1.tgz
 fi
 
 #if [ -d ./blobs ]; then
