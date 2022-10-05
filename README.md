@@ -74,7 +74,7 @@
   - Download & Copy "source files" into the src directory
     ```   
     ## download source files
-    $ wget -O src.zip https://nextcloud.paas-ta.org/index.php/s/mncFE9j49WY4jQQ/download
+    $ wget -O src.zip https://nextcloud.paas-ta.org/index.php/s/wjLDDeJseLix2f3/download
 
     ## unzip download source files
     $ unzip src.zip
@@ -83,12 +83,12 @@
     src
      ├── pidutils.sh
      └── redis
-        └── 7.0.4.tar.gz
+        └── redis-7.0.5.tar.gz
 
     ```
   - Create PaaS-TA monitoring-redis-release  
     ```   
-    ## <VERSION> :: release version (e.g. 5.8.0)
+    ## <VERSION> :: release version (e.g. 5.8.1)
     ## <RELEASE_TARBALL_PATH> :: release file path (e.g. /home/ubuntu/workspace/monitoring-redis-release-<VERSION>.tgz)
     $ bosh -e <bosh_name> create-release --name=redis --sha2 --version=<VERSION> --tarball=<RELEASE_TARBALL_PATH> --force
     ```

@@ -20,4 +20,4 @@ fi
 #fi
 #
 
-bosh create-release --force --tarball monitoring-redis-release-5.8.0.tgz --name monitoring-redis-release --version 5.8.0
+bosh create-release --force --tarball monitoring-redis-release-5.8.1.tgz --name monitoring-redis-release --version 5.8.1
