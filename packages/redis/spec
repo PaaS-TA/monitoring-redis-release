@@ -4,4 +4,4 @@ name: redis-7
 dependencies: []
 
 files: 
-  - redis/redis-7.0.5.tar.gz
+  - redis/7.0.8.tar.gz

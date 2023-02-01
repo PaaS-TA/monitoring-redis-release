@@ -9,9 +9,9 @@ if [ -d ./dev_releases ]; then
   echo "delete dev_releases"
   rm -rf dev_releases
 fi
-if [ -f ./monitoring-redis-release-5.8.1.tgz ]; then
-  echo "delete monitoring-redis-release-5.8.1.tgz"
-  rm -rf monitoring-redis-release-5.8.1.tgz
+if [ -f ./monitoring-redis-release-5.8.5.tgz ]; then
+  echo "delete monitoring-redis-release-5.8.5.tgz"
+  rm -rf monitoring-redis-release-5.8.5.tgz
 fi
 
 #if [ -d ./blobs ]; then
@@ -20,4 +20,4 @@ fi
 #fi
 #
 
-bosh create-release --force --tarball monitoring-redis-release-5.8.1.tgz --name monitoring-redis-release --version 5.8.1
+bosh create-release --force --tarball monitoring-redis-release-5.8.5.tgz --name monitoring-redis-release --version 5.8.5
